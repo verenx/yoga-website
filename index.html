@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=h1, initial-scale=1.0" />
+    <title>Yoga - My favourite hobby</title>
+    <style>
+      button {
+        display: block;
+        margin: 0 auto;
+      }
+      img {
+        width: 100%;
+      }
+
+      body {
+        background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/543/original/annie-spratt-zA7I5BtFbvw-unsplash.jpg?1703799467");
+        background-size: 100% 10%;
+        background-repeat: no-repeat;
+        background-color: #ce9aa2;
+      }
+      .theme-button {
+        font-size: 8px;
+        border: 1px solid black;
+        background: black;
+        color: white;
+        border-radius: 15px;
+        padding: 5px 5px;
+        margin-bottom: 18px;
+        transition: all 200ms ease-in-out;
+      }
+      .theme-button:hover {
+        background: white;
+        color: black;
+        border: 1px solid white;
+        cursor: pointer;
+      }
+
+      .container {
+        background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/543/original/annie-spratt-zA7I5BtFbvw-unsplash.jpg?1703799467");
+        background-size: cover;
+        margin: 20px auto 20px auto;
+        max-width: 600px;
+        padding: 25px 30px;
+        border-radius: 30px;
+      }
+      h1,
+      h2 {
+        text-align: center;
+      }
+
+      .yoga-intro-picture {
+        transition: transform 200ms ease-in-out, filter 1500ms ease-in;
+        border-radius: 15px;
+      }
+
+      .yoga-intro-picture:hover {
+        filter: contrast(35%);
+        transform: scale(1.1);
+      }
+
+      .grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+      }
+
+      .grid img {
+        border-radius: 8px;
+        max-width: 100%;
+        height: 90px;
+        object-fit: cover;
+        transition: transform 300ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(1.6);
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 18px;
+      }
+
+      .wikipedia-yoga-link {
+        color: black;
+        transition: all 200ms ease-in-out;
+      }
+
+      .yoga-button {
+        color: #faeae1;
+        background: #ce9aa2;
+        border-radius: 15px;
+        padding: 15px 20px;
+        margin-top: 25px;
+        font-size: 20px;
+        border: 1px solid #d4b6b3;
+        transition: all 200ms ease-in-out;
+        box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.5);
+      }
+
+      .yoga-button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+
+      footer {
+        color: #faeae1;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .contact-me {
+        color: #faeae1;
+        transition: all 200ms ease-in-out;
+      }
+
+      .contact-me:hover {
+        color: black;
+      }
+
+      .dark {
+        background: linear-gradient(
+          112.1deg,
+          rgb(32, 38, 57) 11.4%,
+          rgb(63, 76, 119) 70.2%
+        );
+      }
+
+      .dark .container {
+        background: linear-gradient(
+          112.1deg,
+          rgb(32, 38, 57) 100%,
+          rgb(63, 76, 119) 0%
+        );
+        color: #d4b6b3;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+      <h1>
+        🧘‍♂️ <br />
+        Yoga
+      </h1>
+      <h2>My favourite hobby</h2>
+      <a href="https://en.wikipedia.org/wiki/Yoga_as_exercise" target="_blank"
+        ><img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/473/original/oksana-taran-xB4ExGcUai0-unsplash.jpg?1703714495"
+          alt=""
+          class="yoga-intro-picture"
+      /></a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/472/original/jared-rice-NTyBbu66_SI-unsplash.jpg?1703714487"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/470/original/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg?1703714480"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/469/original/dane-wetton-t1NEMSm1rgI-unsplash.jpg?1703714472"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/108/468/original/conscious-design-eZIE5ZFR7Cs-unsplash.jpg?1703714465"
+          alt=""
+        />
+      </div>
+
+      <p>
+        Yoga as exercise is a physical activity consisting mainly of postures,
+        often connected by flowing sequences, sometimes accompanied by breathing
+        exercises, and frequently ending with relaxation lying down or
+        meditation. Yoga in this form has become familiar across the world,
+        especially in the US and Europe. It is derived from medieval Haṭha yoga,
+        which made use of similar postures, but it is generally simply called
+        "yoga". Academics have given yoga as exercise a variety of names,
+        including modern postural yoga and transnational anglophone yoga.
+      </p>
+      <a
+        class="wikipedia-yoga-link"
+        href="https://en.wikipedia.org/wiki/Yoga_as_exercise"
+        target="_blank"
+      >
+        📖 Read more on Wikipedia</a
+      >
+      <br />
+      <button class="yoga-button">Practice some yoga</button>
+    </div>
+    <footer>
+      Coded with 💜 by
+      <a
+        class="contact-me"
+        href="https://www.linkedin.com/in/verena-al-khazraji-a73bb370/"
+        target="_blank"
+        >Verena Al-Khazraji
+      </a>
+    </footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+
+      function showYoga() {
+        alert("🧘" + "🧎🏿" + "🤸🏻‍♀️");
+      }
+
+      let yogaButton = document.querySelector(".yoga-button");
+      yogaButton.addEventListener("click", showYoga);
+    </script>
+  </body>
+</html>
